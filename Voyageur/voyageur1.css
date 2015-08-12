@@ -1,0 +1,234 @@
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    background-color: #363636;
+    color: white;
+    font-family: sans-serif;
+}
+#flip img
+{
+  height: 40px;
+}
+
+body
+{
+  background-image: url("pg2.jpg");
+  background-repeat: no-repeat;
+  border-color: #363636;
+
+}
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    padding-left: 29%;
+     margin-top: 0px;
+     font-family: sans-serif;
+  }
+
+li {
+    
+    margin-left: 10px;
+    display: inline-block;
+    text-align:right;
+    height: 10%;
+
+}
+
+a:link, a:visited {
+    display: block;
+    
+    font-weight: bold;
+    color: #363636;
+    
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+text-decoration: underline;
+color: #4BAEB7;
+}
+#header
+{
+ 
+  text-align:center;
+  font-size: 100px;
+  color: #363636;
+  font-family: sans-serif;
+}
+#caption
+{
+  text-decoration: underline;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-left:20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #363636;
+}
+#text
+{
+  margin-top: 40px;
+  text-align: center;
+  color: #363636;
+  font-family: sans-serif;
+  width: 600px;
+  margin-left: 28%;
+}
+form
+{
+  margin-left: 28%;
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+label
+{
+  margin-top: 40px;
+  text-align: center;
+}
+input
+{
+  
+  border-width: 1px;
+  font-family: sans-serif;
+  width: 60%;
+  height: 25px;
+  margin-top: 10px;
+}
+form textarea
+{
+  
+  border-width: 1px;
+  font-family: sans-serif;
+  width: 60%;
+  height: 70px;
+  margin-top: 10px;
+
+}
+#comment textarea
+{
+  
+  margin-top: 0px;
+  padding-top: 0px;
+}
+button
+{
+  background-color: #444547;
+  color: white;
+  font-family: sans-serif;
+  width: 80px;
+  height: 34px;
+  text-align: center;
+
+}
+p
+{
+  margin-left: 28%;
+  font-family: sans-serif;
+  color: #363636;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#comment
+{
+  margin-left: 28%;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #363636;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    text-align: center;
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 20px 50px -5px 0px;
+    
+    
+    
+
+}
+nav ul li {
+    display: inline;
+   
+   webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; 
+    
+}
+nav li:first-child {
+    margin-left: 0
+}
+* html nav ul {
+    margin-left: -15px
+}
+nav span, nav a {
+    padding: 3px 15px 4px;
+    color: #000000;
+    font-family: sans-serif;
+
+}
+
+nav > ul > li > a > .caret {
+    border-top: 4px solid #aaa;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    vertical-align: middle;
+    
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+      transition: color 0.1s linear; 
+}
+nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );
+        }
+
+        nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );
+        }
+
+        nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
+        }
+

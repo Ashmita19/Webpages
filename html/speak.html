@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    background-color: #363636;
+    color: white;
+    font-family: sans-serif;
+}
+#flip img
+{
+  height: 40px;
+}
+</style>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+<style>
+body
+{
+  background-image: url("pg2.jpg");
+  background-repeat: no-repeat;
+  border-color: #363636;
+
+}
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    padding-left: 31%;
+     margin-top: 0px;
+     font-family: sans-serif;
+  }
+
+li {
+    
+    margin-left: 10px;
+    display: inline-block;
+    text-align:right;
+    height: 10%;
+
+}
+
+a:link, a:visited {
+    display: block;
+    
+    font-weight: bold;
+    color: #363636;
+    
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+text-decoration: underline;
+color: #4BAEB7;
+}
+#header
+{
+ 
+  text-align:center;
+  font-size: 100px;
+  color: #363636;
+  font-family: sans-serif;
+}
+#caption
+{
+  text-decoration: underline;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-left:20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #363636;
+}
+#text
+{
+  margin-top: 40px;
+  text-align: center;
+  color: #363636;
+  font-family: sans-serif;
+  width: 600px;
+  margin-left: 28%;
+}
+form
+{
+  margin-left: 28%;
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+label
+{
+  margin-top: 40px;
+  text-align: center;
+}
+input
+{
+  
+  border-width: 1px;
+  font-family: sans-serif;
+  width: 60%;
+  height: 25px;
+  margin-top: 10px;
+}
+form textarea
+{
+  
+  border-width: 1px;
+  font-family: sans-serif;
+  width: 60%;
+  height: 70px;
+  margin-top: 10px;
+
+}
+#comment textarea
+{
+  
+  margin-top: 0px;
+  padding-top: 0px;
+}
+button
+{
+  background-color: #444547;
+  color: white;
+  font-family: sans-serif;
+  width: 80px;
+  height: 34px;
+  text-align: center;
+
+}
+p
+{
+  margin-left: 28%;
+  font-family: sans-serif;
+  color: #363636;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#comment
+{
+  margin-left: 28%;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #363636;
+  display: inline-block;
+}
+#rect
+{
+  position: absolute;
+  float: none;
+  border-width: 100px;
+  border-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+</style>
+</head>
+<body>
+<div id="rect"></div>
+<div id="header">VOYAGEUR</div>
+<ul>
+  <li><a href="#home">HOME</a></li>
+  <li><a href="#aboutus">ABOUT US</a></li>
+  <li><a href="#speak">SPEAK</a></li>
+  <li><a href="#ideate">IDEATE</a></li>
+  <li><a href="#sphere">SPHERE</a></li>
+  <li><a href="#reachout">REACH OUT</a></li>
+</ul>
+<div id="caption">HAVE SOMETHING TO TELL US?</div>
+<div id="text">If you want to reach out to us for publishing your articles, please mail us at: info.entrepreneurrules@gmail.com.
+<br>
+At Voyageur, we are open to Suggestions, Feedback and Criticisms. Do write to us, and we would be happy to hear from you!
+</div>
+<form>
+<input type="text" name="username" id="username" placeholder="Name (required)">
+<input type="text" name="Email" id="Email" placeholder="Email (required)">
+<input type="text" name="website" id="website" placeholder="Website">
+<br>
+<textarea name="comment" placeholder="Add your comments here"></textarea><br>
+<button name="submit">
+  <strong>SUBMIT</strong>
+</button>
+</form>
+<div id="comment">
+<br>
+Leave a comment
+<br>
+<textarea name="comment"></textarea>
+<div id="links">
+<img src="twitter.png"/>
+<img src="twitter.png"/>
+<img src="twitter.png"/>
+</div>
+</div>
+<div id="flip"><img src="plus.png"></div>
+<div id="panel">Hello world!</div>
+
+
+</body>
+</html>

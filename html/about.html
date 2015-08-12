@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    background-color: #363636;
+    color: white;
+    font-family: sans-serif;
+    width: 90%;
+}
+#flip img
+{
+  height: 40px;
+}
+
+body
+{
+  background-image: url("pg2.jpg");
+  background-repeat: no-repeat;
+  border-color: #363636;
+
+}
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    padding-left: 31%;
+     margin-top: 0px;
+     font-family: sans-serif;
+  }
+
+li {
+    
+    margin-left: 10px;
+    display: inline-block;
+    text-align:right;
+    height: 10%;
+
+}
+
+a:link, a:visited {
+    display: block;
+    
+    font-weight: bold;
+    color: #363636;
+    
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+text-decoration: underline;
+color: #4BAEB7;
+}
+#header
+{
+ 
+  text-align:center;
+  font-size: 100px;
+  color: #363636;
+  font-family: sans-serif;
+}
+#caption
+{
+  text-decoration: underline;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-left:20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #363636;
+}
+#text
+{
+  margin-top: 40px;
+  text-align: center;
+  color: #363636;
+  font-family: sans-serif;
+  width: 600px;
+  margin-left: 28%;
+}
+#pics img
+{
+	border-radius: 80%;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	margin-left: 25%;
+	float: left;
+	margin-top: 40px;
+	
+	
+}
+#name
+{
+	display: inline-block;
+	margin-left: 23%;
+	float: left;
+	margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+<div id="header">VOYAGEUR</div>
+<ul>
+  <li><a href="#home">HOME</a></li>
+  <li><a href="#aboutus">ABOUT US</a></li>
+  <li><a href="#speak">SPEAK</a></li>
+  <li><a href="#ideate">IDEATE</a></li>
+  <li><a href="#sphere">SPHERE</a></li>
+  <li><a href="#reachout">REACH OUT</a></li>
+</ul>
+<div id="caption">ABOUT</div>
+<div id=text>A startup magazine like no other...are you an entrepreneur..newbie or 
+established, do you travel, do you love what you do? Let us know and 
+you can be a part of our magazine!
+
+<br>
+Apart from regular interviews, we will also have articles written by 
+entrepreneurs, for entrepreneurs and on entrepreneurs: things we need
+ to learn, we need to know as business owners or as employees in 
+startups...So read on!
+<div id="caption">OUR TEAM</div>
+<div id="pics">
+<img src="pic1.png"/>
+<img src="pic1.png"/>
+<div id="name">HRIDYA ANAND</div>
+<div id="name">SAUMYA SUNDER</div>
+</div>
+<div id="flip"><img src="plus.png"></div>
+<div id="panel">Hello world!</div>
+
+</body>
+
+</html>
